@@ -6,12 +6,13 @@
     for (let i = 0; i < new_string.length; i++){
         for(let k = 0; k < dog_names.length; k++){
             if (dog_names[k] == new_string[i]){
-                return 'Matched dog_name'
+                console.log( 'Matched dog_name')
+                return undefined
             }
         }
     }
-    return 'No matches'
-
+    console.log( 'No matches')
+    return undefined
  }
 
  let findWord2 = (dog_string, dog_names) =>{
@@ -20,11 +21,13 @@
     for (let i = 0; i < new_string.length; i++){
         for(let k = 0; k < dog_names.length; k++){
             if (dog_names[k] == new_string[i]){
-                return 'Matched dog_name'
+                console.log( 'Matched dog_name')
+                return undefined
             }
         }
     }
-    return 'No matches'
+    console.log( 'No matches')
+    return undefined
  }
 
 
@@ -34,13 +37,14 @@
     for (let i = 0; i < new_string.length; i++){
         for(let k = 0; k < dog_names.length; k++){
             if (dog_names[k] == new_string[i]){
-                return 'Matched dog_name'
+                console.log( 'Matched dog_name')
+                return undefined
             }
         }
     }
-    return 'No matches'
+    console.log( 'No matches')
+    return undefined
  }
-
 let string = "Hello Max, my name is Dog, and I have purple eyes!";
 let names = ["Max","HAS","PuRple","dog"];
 
